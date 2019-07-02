@@ -21,6 +21,7 @@
 #ifndef DDG_SHADER_H
 #define DDG_SHADER_H
 
+#define GL_SILENCE_DEPRECATION
 #include <GLUT/glut.h>
 #include <string>
 

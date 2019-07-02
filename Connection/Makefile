@@ -28,8 +28,8 @@ DDG_OPENGL_LIBS       = -framework OpenGL -framework GLUT
 TARGET = connection
 CC = g++
 LD = g++
-CFLAGS = -O3 -Wall -Werror -ansi -pedantic  $(DDG_INCLUDE_PATH) -I./include -I./src
-LFLAGS = -O3 -Wall -Werror -ansi -pedantic $(DDG_LIBRARY_PATH)
+CFLAGS = -O3 -Wall -Werror -pedantic  $(DDG_INCLUDE_PATH) -I./include -I./src
+LFLAGS = -O3 -Wall -Werror -pedantic $(DDG_LIBRARY_PATH)
 LIBS = $(DDG_OPENGL_LIBS) $(DDG_SUITESPARSE_LIBS) $(DDG_BLAS_LIBS)
 
 ########################################################################################

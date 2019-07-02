@@ -10,6 +10,7 @@
 #ifndef DDG_VIEWER_H
 #define DDG_VIEWER_H
 
+#define GL_SILENCE_DEPRECATION
 #include <GLUT/glut.h>
 #include "Mesh.h"
 #include "Camera.h"
